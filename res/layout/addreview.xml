@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id = "@+id/tvReviewPlaceName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Reivew Place Name Here"
+        android:textSize="40dp" 
+        android:paddingBottom = "10dp"/>
+
+    <EditText
+        android:id="@+id/etReviewDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:hint="Review" 
+        android:textColor="#ff000000"/>
+    
+    <Button
+        android:id = "@+id/bAddReview"
+        android:layout_width="fill_parent" 
+        android:layout_height="60dp"
+        android:text="Add Review" />
+    
+    <TextView
+        android:id = "@+id/tvAddReviewStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    
+</LinearLayout>

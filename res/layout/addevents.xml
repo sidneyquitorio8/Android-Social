@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add Event"
+        android:textSize="40dp" 
+        android:paddingBottom = "10dp"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Name"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etEventName"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:hint="Name" 
+        android:textColor="#ff000000"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="When"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etEventWhen"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:hint="When" 
+        android:textColor="#ff000000"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Where"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etEventWhere"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:hint="Where" 
+        android:textColor="#ff000000"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Price"
+        android:textSize="15dp" />
+    
+    <EditText   
+        android:id="@+id/etEventPrice"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:hint="Price" 
+        android:textColor="#ff000000"/>
+    
+    <Button
+        android:id = "@+id/bAddEvent"
+        android:layout_width="fill_parent" 
+        android:layout_height="60dp"
+        android:text="Add New Event" />
+    
+    <TextView
+        android:id = "@+id/tvEventInfoHolder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cmpe137.StudentSocial"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".PostStatus"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".AddPlaces"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".AddEvents"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".AllRecentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".ShowPlaces"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".ShowEvents"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".SpecificPlace"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".SpecificEvent"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".AddSpecificReview"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".ViewSpecificReview"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".CreateAccount"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".SpecificProfile"
+            android:label="@string/app_name" >
+        </activity>
+        
+	</application>
+        
+
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id= "@+id/tvSpecificPlaceName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Specific Place Name Goes Here"
+        android:textSize="40dp" 
+        android:paddingBottom = "10dp"/>
+    
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Address"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id = "@+id/tvSpecificPlaceAddressInformation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Address Information goes here" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Price"
+        android:textSize="25dp" />
+    
+    <TextView
+        android:id = "@+id/tvSpecificPlacePriceInformation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Price Information goes here" />
+    
+    <Button
+        android:id = "@+id/bAddPlaceReviews"
+        android:layout_width="fill_parent" 
+        android:layout_height="60dp"
+        android:text="Add New Review" />
+    
+    <Button
+        android:id = "@+id/bViewPlaceReviews"
+        android:layout_width="fill_parent" 
+        android:layout_height="60dp"
+        android:text="View Reviews" />
+    
+    
+</LinearLayout>

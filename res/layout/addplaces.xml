@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add Place"
+        android:textSize="40dp" 
+        android:paddingBottom = "10dp"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Place Name"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etPlaceName"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:hint="Name" 
+        android:textColor="#ff000000"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Address"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etPlaceWhere"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:hint="Where" 
+        android:textColor="#ff000000"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Price"
+        android:textSize="15dp" />
+    
+    <EditText   
+        android:id="@+id/etPlacePrice"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:hint="Price" 
+        android:textColor="#ff000000"/>
+    
+    <Button
+        android:id = "@+id/bAddPlace"
+        android:layout_width="fill_parent" 
+        android:layout_height="60dp"
+        android:text="Add New Place" />
+    
+    <TextView
+        android:id = "@+id/tvPlaceInfoHolder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>

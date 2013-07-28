@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding = "25dp" >
+    
+    <EditText
+        android:id="@+id/etStatus"
+     	android:layout_width="fill_parent"
+     	android:layout_height="100dp"
+     	android:hint="Post a status" 
+     	android:paddingBottom="70dp"
+     	android:background = "#FFFFFF"
+     	android:textColor="#ff000000"/>
+    	
+    
+    <Button
+        android:id = "@+id/bPostStatus"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height = "wrap_content"
+        android:text="Post Status"/>
+    
+    <TextView
+        android:id = "@+id/tvStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>  
+    
